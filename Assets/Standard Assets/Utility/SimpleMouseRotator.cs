@@ -45,7 +45,7 @@ namespace UnityStandardAssets.Utility
             float inputV;
             if (relative)
             {
-                inputH = CrossPlatformInputManager.GetAxis("Mouse X");
+                inputH = CrossPlatformInputManager.GetAxis("Mouse X") + Input.GetAxis("HorizontalRight") * 0.5f;
                 inputV = CrossPlatformInputManager.GetAxis("Mouse Y");
 
                 // wrap values to avoid springing quickly the wrong way from positive to negative
