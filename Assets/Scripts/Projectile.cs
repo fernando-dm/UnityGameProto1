@@ -7,10 +7,10 @@ public class Projectile : MonoBehaviour {
 		transform.Translate (Vector3.forward * Time.deltaTime * 10);
 	}
 
-	//void OnTriggerEnter(Collider other){
-	//	if (other.tag == "Enemy") {
-	//		Destroy (other.gameObject);
-	//		Destroy (gameObject);
-	//	}
-	//}
+	void OnTriggerEnter(Collider other){
+		if (other.tag == "Enemy") {
+			Destroy (other.gameObject);
+			Destroy (gameObject);
+		}
+	}
 }
