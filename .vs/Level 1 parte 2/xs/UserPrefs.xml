@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{606D0621-33F5-0819-30B7-D300334F2D6F}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Collection.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Popup.cs">
     <Files>
       <File FileName="Assets/Standard Assets/Utility/SimpleMouseRotator.cs" Line="49" Column="71" />
       <File FileName="Assets/Scripts/Mover.cs" Line="8" Column="32" />
-      <File FileName="Assets/Scripts/Projectile.cs" Line="14" Column="112" />
+      <File FileName="Assets/Scripts/Projectile.cs" Line="14" Column="109" />
       <File FileName="Assets/Scripts/Attack.cs" Line="8" Column="88" />
-      <File FileName="Assets/Scripts/Collection.cs" Line="19" Column="46" />
+      <File FileName="Assets/Scripts/Collection.cs" Line="40" Column="10" />
+      <File FileName="Assets/Scripts/Popup.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
