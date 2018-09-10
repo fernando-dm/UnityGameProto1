@@ -7,6 +7,8 @@ TagManager:
   - Fire
   - Enemy
   - Coin
+  - Chest
+  - Key
   layers:
   - Default
   - TransparentFX
