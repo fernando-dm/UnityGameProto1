@@ -14,7 +14,7 @@ public class Collection : MonoBehaviour {
 	{
 		if (other.tag == "Coin") {
 			gold++;
-			//goldCount.text = "Gold: " + gold;
+			goldCount.text = "Gold: " + gold;
 			Instantiate (Resources.Load ("PickupEffect"), other.transform.position, other.transform.rotation);
             Destroy (other.gameObject);
 		}
@@ -25,7 +25,8 @@ public class Collection : MonoBehaviour {
             {
                 gold += 10;
                 Instantiate(Resources.Load("PickupEffect"), other.transform.position, Quaternion.Euler(-90, 0, 0));
-                //goldCount.text = "Gold: " + gold;
+                goldCount.text = "Gold: " + gold;
+                keysCount.text = "Keys: 0";
                 Destroy(other.gameObject);
                 hasKey = false;
             }
@@ -34,7 +35,7 @@ public class Collection : MonoBehaviour {
         if (other.tag == "Key")
         {
             hasKey = true;
-            //keysCount.text = "Key: 1";
+            keysCount.text = "Key: 1";
             Instantiate(Resources.Load("PickupEffect"), other.transform.position, Quaternion.Euler(-90, 0, 0));
             Destroy(other.gameObject);
         }
