@@ -39,23 +39,22 @@ public class Collection : MonoBehaviour {
             Destroy(other.gameObject);
         }
 
+    //if (other.tag == "Key") {
+    //	hasKey = true;
+    //	keysCount.text = "Keys: 1";
+    //	Instantiate (Resources.Load ("PickupEffect"), other.transform.position, Quaternion.Euler (90, 0, 0));
+    //	Destroy (other.gameObject);
+    //}
 
-        //if (other.tag == "Key") {
-        //	hasKey = true;
-        //	keysCount.text = "Keys: 1";
-        //	Instantiate (Resources.Load ("PickupEffect"), other.transform.position, Quaternion.Euler (90, 0, 0));
-        //	Destroy (other.gameObject);
-        //}
-
-        //if (other.tag == "Chest") {
-        //	if (hasKey) {
-        //		gold += 10;
-        //		goldCount.text = "Gold: " + gold;
-        //		keysCount.text = "Keys: 0";
-        //		Instantiate (Resources.Load ("PickupEffect"), other.transform.position, Quaternion.Euler (90, 0, 0));
-        //		Destroy (other.gameObject);
-        //		hasKey = false;
-        //	}
-        //}
-    }
+    //if (other.tag == "Chest") {
+    //	if (hasKey) {
+    //		gold += 10;
+    //		goldCount.text = "Gold: " + gold;
+    //		keysCount.text = "Keys: 0";
+    //		Instantiate (Resources.Load ("PickupEffect"), other.transform.position, Quaternion.Euler (90, 0, 0));
+    //		Destroy (other.gameObject);
+    //		hasKey = false;
+    //	}
+    //}
+}
 }
