@@ -26,7 +26,7 @@ public class Collection : MonoBehaviour {
                 gold += 10;
                 Instantiate(Resources.Load("PickupEffect"), other.transform.position, Quaternion.Euler(-90, 0, 0));
                 goldCount.text = "Gold: " + gold;
-                keysCount.text = "Keys: 0";
+                keysCount.text = "Key: 0";
                 Destroy(other.gameObject);
                 hasKey = false;
             }
